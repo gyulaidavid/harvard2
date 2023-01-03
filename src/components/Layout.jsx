@@ -88,7 +88,7 @@ function Layout({searchTag}) {
                             aria-label="open drawer"
                             sx={{ mr: 2 }}
                         >
-                            <MenuIcon />
+                        <MenuIcon />
                         </IconButton>
                         <Typography
                             variant="h6"
@@ -96,7 +96,7 @@ function Layout({searchTag}) {
                             component="div"
                             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                         >
-                            MUI
+                            Art Gallery
                         </Typography>
                         <Search>
                             <SearchIconWrapper>
