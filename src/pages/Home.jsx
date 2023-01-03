@@ -12,6 +12,7 @@ function Home({url}) {
         .then((res) => res.json())
         .then((data) => {
             console.log(url, data.records)
+            console.log(data.records);
             setArtworks(data.records.length ? data.records : [])
         })
     }, [url]);
